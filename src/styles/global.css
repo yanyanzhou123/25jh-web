@@ -204,10 +204,10 @@ img {
   inset: 0;
   z-index: -1;
   background:
-    linear-gradient(180deg, rgba(22, 32, 51, 0.22) 0%, rgba(22, 32, 51, 0.42) 45%, rgba(22, 32, 51, 0.78) 100%),
-    radial-gradient(ellipse 90% 55% at 50% 28%, rgba(221, 231, 242, 0.28), transparent 68%),
+    linear-gradient(180deg, rgba(22, 32, 51, 0.15) 0%, rgba(22, 32, 51, 0.30) 45%, rgba(22, 32, 51, 0.62) 100%),
+    radial-gradient(ellipse 90% 55% at 50% 28%, rgba(214, 230, 251, 0.30), transparent 68%),
     url('/hero-mist.svg') center/cover no-repeat,
-    linear-gradient(160deg, #5a7e9e 0%, #1e3a5f 48%, #162033 100%);
+    linear-gradient(160deg, #4a7ab8 0%, #1e3a5f 50%, #15243d 100%);
   animation: mist-drift 18s ease-in-out infinite alternate;
 }
 
