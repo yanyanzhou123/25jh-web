@@ -1,6 +1,6 @@
-# 见行修学 · 安卓 App
+# 25京沪加行修学 · 安卓 App
 
-这是可安装的安卓应用（Capacitor），打开后进入学习中心：https://jianxing.win/app/  
+这是可安装的安卓应用（Capacitor），打开后进入学习中心：https://25jh.jianxing.win/app/  
 账号与学习进度和网页共用。
 
 ## 方式一：用 GitHub Actions 下载 APK（推荐）

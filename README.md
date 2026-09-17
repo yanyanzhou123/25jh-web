@@ -1,6 +1,6 @@
-# 见行修学网站（本仓库）
+# 25京沪加行修学网站（本仓库）
 
-GitHub：https://github.com/yanyanzhou123/jianxing-web  
+GitHub：https://github.com/yanyanzhou123/25jh-web  
 本 README 随仓库维护，上传 GitHub 时请一并提交，避免产品线混淆。
 
 ## 产品线总览（务必分清）
@@ -369,7 +369,7 @@ article-collections.json  # 公众号好文（独立于课表）
 ## 另一台电脑继续开发
 
 ```bash
-git clone https://github.com/yanyanzhou123/jianxing-web.git
+git clone https://github.com/yanyanzhou123/25jh-web.git
 cd jianxing-web
 git checkout master
 npm install

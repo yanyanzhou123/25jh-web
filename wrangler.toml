@@ -9,11 +9,11 @@ bucket_name = "25jh-files"
 [[d1_databases]]
 binding = "DB"
 database_name = "25jh-app"
-database_id = "TODO_FILL_AFTER_D1_CREATE"
+database_id = "8d089715-8e9d-4645-83f7-28547d00f778"
 
 [ai]
 binding = "AI"
 
 [[vectorize]]
 binding = "VECTORIZE"
-index_name = "25jh-passages"
+index_name = "jh25-passages"
