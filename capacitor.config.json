@@ -1,0 +1,17 @@
+{
+  "appId": "win.jianxing.app",
+  "appName": "25京沪加行修学",
+  "webDir": "android-www",
+  "server": {
+    "url": "https://25jh.jianxing.win/app/",
+    "allowNavigation": [
+      "jianxing.win",
+      "*.jianxing.win",
+      "*.jianxing.pages.dev",
+      "*.r2.dev"
+    ]
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

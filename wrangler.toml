@@ -1,0 +1,19 @@
+name = "25jh"
+compatibility_date = "2026-07-22"
+pages_build_output_dir = "dist"
+
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "25jh-files"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "25jh-app"
+database_id = "TODO_FILL_AFTER_D1_CREATE"
+
+[ai]
+binding = "AI"
+
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "25jh-passages"

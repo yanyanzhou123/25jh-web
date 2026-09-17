@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="学修" description="25京沪加行修学 · 学修目录">
+  <div class="page-hero">
+    <div class="wrap">
+      <h1>学修</h1>
+      <p>按下列分类进入各学修模块。参考书籍与其他材料请到「参考资料」。</p>
+    </div>
+  </div>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap" id="xuexiu-sections">
+      <p class="lesson-list__summary">加载中…</p>
+    </div>
+  </section>
+
+  <script src="/jx-catalog.js?v=20260826a" defer></script>
+  <script is:inline>
+  document.addEventListener('DOMContentLoaded', async () => {
+    const root = document.getElementById('xuexiu-sections');
+    try {
+      const [catalog, articles] = await Promise.all([
+        JX.fetchCatalog({ lite: true }),
+        JX.fetchArticles().catch(() => []),
+      ]);
+      root.innerHTML = JX.renderHomeSections(catalog, { articles });
+    } catch (e) {
+      root.innerHTML = `<p>加载失败：${JX.escape(e.message || e)}</p>`;
+    }
+  });
+  </script>
+</BaseLayout>
